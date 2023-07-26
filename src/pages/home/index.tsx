@@ -116,11 +116,12 @@ const Home = () => {
                         <div className='w-72 grid gap-y-10'>
                             <img width={500} src={Logo} className='mx-auto' />
                         </div>
-                        <div className='w-72 grid'>
-                            <h1 className='text-2xl text-center'>PT Kusuma Technology Systema</h1>
-                            <p className='w-max'>The Orchard Residence Block C1
-                                Pamegarsari, Parung, Bogor, West Java
-                                Postal code 16330</p>
+                        <div className='w-72 grid gap-y-3'>
+                            <h1 className='text-2xl font-bold'>PT Kusuma Technology Systema</h1>
+                            <p className='w-max'>The Orchard Residence Block C1,
+                                Pamegarsari, Parung, Bogor, West Java <br />
+                                Postal Code 16330</p>
+                            <a href='mailto:support@seambiosys.com' className='w-max text-seambiosys-orange hover:text-orange-700'>support@seambiosys.com</a>
                         </div>
                     </div>
                 </div>
