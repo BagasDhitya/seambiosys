@@ -31,10 +31,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     <div className="flex items-center gap-x-10">
                         <img src={SeambiosysLogo} width={200} height={200} />
                         <div className={`flex gap-x-10 ${isMobileOrTablet && ('hidden')}`}>
-                            <a href="#home" className="text-seambiosys-blue hover:text-seambiosys-orange">
+                            <a href="/" className="text-seambiosys-blue hover:text-seambiosys-orange">
                                 Home
                             </a>
-                            <a href="#hubspot" className="text-seambiosys-blue hover:text-seambiosys-orange">
+                            <a href="/home/hubspot_crm" className="text-seambiosys-blue hover:text-seambiosys-orange">
                                 HubSpot CRM
                             </a>
                         </div>
@@ -48,7 +48,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                 Menu
                             </button>
                         ) : (
-                            <a href="#contact" className="bg-seambiosys-orange p-3 px-10 rounded-md text-white">
+                            <a href="/home/contact_sales" className="bg-seambiosys-orange p-3 px-10 rounded-md text-white hover:text-white">
                                 Contact Sales
                             </a>
                         )}
@@ -56,13 +56,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 </div>
                 {showMenu && isMobileOrTablet && (
                     <div className="lg:hidden flex flex-col gap-y-2 items-center bg-white text-white py-2 my-4">
-                        <a href="#home" className="text-seambiosys-blue hover:text-seambiosys-orange">
+                        <a href="/" className="text-seambiosys-blue hover:text-seambiosys-orange">
                             Home
                         </a>
-                        <a href="#hubspot" className="text-seambiosys-blue hover:text-seambiosys-orange">
+                        <a href="/home/hubspot_crm" className="text-seambiosys-blue hover:text-seambiosys-orange">
                             HubSpot CRM
                         </a>
-                        <a href="#contact" className="text-white rounded-md bg-seambiosys-orange p-3">
+                        <a href="/home/contact_sales" className="text-white rounded-md bg-seambiosys-orange p-3">
                             Contact Sales
                         </a>
                     </div>
