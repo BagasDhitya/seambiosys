@@ -25,8 +25,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     };
 
     return (
-        <div className="min-h-screen lg:w-screen bg-white flex flex-col items-center">
-            <nav className="w-screen h-full shadow-md">
+        <div className="min-h-screen lg:w-screen bg-white flex flex-col">
+            <nav className="w-screen bg-white sticky top-0 z-10 h-full shadow-md">
                 <div className="m-5 flex items-center justify-between">
                     <div className="flex items-center gap-x-10">
                         <img src={SeambiosysLogo} width={200} height={200} />
@@ -68,7 +68,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     </div>
                 )}
             </nav>
-            <div className="w-full sm:w-full md:w-2/3 lg:w-1/2 xl:w-1/3 px-4 py-8">
+            <div className="w-full sm:w-full md:w-2/3 lg:w-1/2 xl:w-1/3 py-8">
                 {children}
             </div>
         </div>
