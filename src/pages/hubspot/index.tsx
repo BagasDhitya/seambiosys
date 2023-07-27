@@ -31,7 +31,7 @@ const Hubspot = () => {
             <section className='flex flex-wrap justify-center items-center my-20 grid mx-auto w-screen text-black'>
                 <div className='grid grid-cols-1 gap-y-5 text-center'>
                     <h1 className="text-4xl font-bold">Why Hubspot?</h1>
-                    <div className='my-20 mx-60 flex'>
+                    <div className='my-20 lg:mx-60 mx-auto flex'>
                         <iframe
                             className='w-screen h-96 rounded-lg shadow-md '
                             src='https://www.youtube.com/embed/1_Oblfg_zq8?autoplay=0&rel=0&showinfo=1&controls=1'
@@ -39,7 +39,7 @@ const Hubspot = () => {
                         />
                     </div>
                 </div>
-                <div className='grid grid-cols-3 text-center mt-10'>
+                <div className='grid lg:grid-cols-3 gap-y-20 text-center mt-10'>
                     <div className='grid gap-y-10 mx-20'>
                         <img src={Ete} width={100} height={100} className='mx-auto' />
                         <h1 className='text-3xl font-bold'>End to end Solution</h1>
@@ -71,7 +71,7 @@ const Hubspot = () => {
                         className='mx-auto rounded-md'
                     />
                 </div>
-                <div className='flex-1 grid grid-cols-1 gap-y-5 mr-20'>
+                <div className='flex-1 grid grid-cols-1 lg:gap-y-5 lg:mx-0 mx-20 my-10 gap-y-10 mr-20'>
                     <h1 className='text-4xl font-bold'>
                         Need more exploration on Hubspot in Bahasa?</h1>
                     <p>Let Seambiosys Solution Architect will handle your inquiry of Hubspot CRM in
@@ -82,7 +82,7 @@ const Hubspot = () => {
                 </div>
             </section>
             <section className='flex flex-wrap justify-center items-center my-40 grid mx-auto w-screen text-black'>
-                <div className='grid grid-cols-4 gap-y-10 text-center mt-10'>
+                <div className='grid lg:grid-cols-4 gap-y-10 text-center mt-10'>
                     <div className='grid gap-y-3 mx-20'>
                         <img src={CertifiedRevenue} width={70} height={70} className='mx-auto' />
                         <h1 className='text-xl font-bold'>HubSpot Revenue Operations Certified</h1>
@@ -107,13 +107,13 @@ const Hubspot = () => {
                     <a href="/home/contact_sales" className="bg-seambiosys-orange w-60 p-3 rounded-md mx-auto text-white text-center hover:text-white">
                         Contact Us
                     </a>
-                    <div className='flex grid grid-cols-3 gap-x-28 mt-20'>
+                    <div className='flex grid lg:grid-cols-3 lg:mx-0 mx-20 gap-x-28 mt-20'>
                         <div className='w-72 grid gap-y-10'>
                             <img width={500} src={Seambiosys} className='mx-auto' />
                         </div>
-                        <div className='w-72 grid gap-y-3'>
+                        <div className='w-72 grid lg:gap-y-3 gap-y-5 lg:mt-0 mt-10'>
                             <h1 className='text-2xl font-bold'>PT Kusuma Technology Systema</h1>
-                            <p className='w-max'>The Orchard Residence Block C1,
+                            <p className='lg:w-max'>The Orchard Residence Block C1,
                                 Pamegarsari, Parung, Bogor, West Java <br />
                                 Postal Code 16330</p>
                             <a href='mailto:support@seambiosys.com' className='w-max text-seambiosys-orange hover:text-orange-700'>support@seambiosys.com</a>

@@ -3,7 +3,6 @@ import Layout from '../../components/Layout'
 import Seambiosys from "../../assets/seambiosys_logo.jpeg"
 
 const Contact = () => {
-
     return (
         <Layout>
             <iframe

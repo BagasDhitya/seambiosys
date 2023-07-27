@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SeambiosysLogo from "../assets/seambiosys_logo.jpeg";
+import Burger from "../assets/burger.png"
 
 interface LayoutProps {
     children?: React.ReactNode;
@@ -43,12 +44,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     </div>
                     <div>
                         {isMobileOrTablet ? (
-                            <button
+                            <a
                                 onClick={toggleMenu}
-                                className={`lg:hidden text-seambiosys-blue hover:text-seambiosys-orange ${showMenu ? 'hidden' : ''}`}
+                                className={`lg:hidden text-seambiosys-blue hover:text-seambiosys-orange`}
                             >
-                                Menu
-                            </button>
+                                <img src={Burger} width={50} />
+                            </a>
                         ) : (
                             <a href="/home/contact_sales" className="bg-seambiosys-orange p-3 px-10 rounded-md text-white hover:text-white">
                                 Contact Sales

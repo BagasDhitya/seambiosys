@@ -14,7 +14,7 @@ import ComingSoon from "../../assets/seambiosys_coming_soon.png"
 const Home = () => {
     return (
         <Layout>
-            <section className='flex flex-wrap lg:mx-40 lg:w-max items-center my-20 text-black'>
+            <section className='flex flex-wrap lg:mx-40 mx-10 lg:w-max items-center my-5 lg:my-20 text-black'>
                 <div className='flex-1 grid gap-y-5 mx-auto'>
                     <h1 className='text-4xl font-bold'>Trusted partner for seamless business operation solution</h1>
                     <p className='text-lg'>Seambiosys ~ Seamless Business Operation Integrated System</p>
@@ -23,7 +23,7 @@ const Home = () => {
                         Contact Us
                     </a>
                 </div>
-                <div className='w-full md:w-1/2 text-center'>
+                <div className='w-full md:w-1/2 lg:mt-0 mt-10 text-center'>
                     <img
                         src="https://storage.googleapis.com/imagelibrarystorage.pluginops.com/images/uploads/2020/04/Header.png"
                         width={400}
@@ -34,7 +34,7 @@ const Home = () => {
             <section className='flex flex-wrap lg:mx-40 lg:w-max items-start my-40 text-black'>
                 <div className='flex-1 grid gap-y-5 mx-auto'>
                     <h1 className='text-4xl text-center font-bold'>Seambiosys 3 fundamentals commitment</h1>
-                    <div className='flex grid grid-cols-3 gap-x-28 mt-20'>
+                    <div className='flex grid lg:grid-cols-3 lg:gap-y-0 lg:mx-0 mx-10 gap-y-14 gap-x-28 mt-20'>
                         <div className='w-72 grid'>
                             <img width={70} src={Time} className='mx-auto' />
                             <h1 className='text-2xl text-center text-seambiosys-orange'>Reduce contraint of time</h1>
@@ -61,7 +61,7 @@ const Home = () => {
                         className='mx-auto rounded-md'
                     />
                 </div>
-                <div className='flex-1 grid grid-cols-1 gap-y-5 mr-20'>
+                <div className='flex-1 grid grid-cols-1 lg:mx-0 lg:my-0 my-10 mx-10 gap-y-5 mr-20'>
                     <h1 className='text-4xl font-bold'>
                         Yes! We also stand for high growth SMe's & Start-up!</h1>
                     <p className='text-lg'>Seambiosys ~ Seamless Business Operation Integrated System</p>
@@ -71,14 +71,14 @@ const Home = () => {
                     </a>
                 </div>
             </section>
-            <section className='flex flex-wrap lg:mx-40 lg:w-max items-start my-40 text-black'>
+            <section className='flex flex-wrap lg:mx-40 lg:w-max items-start lg:my-40 my-0 text-black'>
                 <div className='flex-1 grid gap-y-5 mx-auto'>
                     <h1 className='text-4xl text-center font-bold'>Our Services</h1>
                     <p className='text-2xl text-center'>Deep dive with our provided service here</p>
                     <a href="/home/contact_sales" className="bg-seambiosys-orange w-60 p-3 rounded-md mx-auto text-white text-center hover:text-white">
                         Explore More
                     </a>
-                    <div className='flex grid grid-cols-3 gap-x-28 mt-20'>
+                    <div className='flex grid lg:grid-cols-3 lg:mx-0 mx-10 gap-x-28 lg:gap-y-0 gap-y-20 mt-20'>
                         <div className='w-72 border rounded-md shadow-md p-10 grid gap-y-10'>
                             <img width={150} src={Hubspot} className='mx-auto' />
                             <h1 className='text-2xl text-center text-seambiosys-orange'>HubSpot CRM</h1>
@@ -92,7 +92,7 @@ const Home = () => {
                         </div>
                         <div className='w-72 border rounded-md shadow-md p-10 grid gap-y-10'>
                             <img width={200} src={Etl} className='mx-auto' />
-                            <img width={100} src={ComingSoon} className='my-96 absolute' />
+                            <img width={100} src={ComingSoon} className='lg:my-96 my-8 absolute' />
                             <h1 className='text-2xl text-center text-seambiosys-orange'>ETL Process Consulting</h1>
                             <p className='text-center'>Have a constraint on data extraction, transform and loading? Our ETL Engine ready to help you.</p>
                         </div>
@@ -106,19 +106,19 @@ const Home = () => {
                 </div>
             </section>
             <section className='flex flex-wrap lg:mx-40 lg:w-max items-start text-black'>
-                <div className='flex-1 grid gap-y-5 mx-auto'>
+                <div className='flex-1 grid gap-y-5 mx-auto lg:my-0 my-20'>
                     <h1 className='text-4xl text-center font-bold'>Have a Project to Discuss?</h1>
                     <p className='text-2xl text-center'>Join Here!</p>
                     <a href="/home/contact_sales" className="bg-seambiosys-orange w-60 p-3 rounded-md mx-auto text-white text-center hover:text-white">
                         Contact Us
                     </a>
-                    <div className='flex grid grid-cols-3 gap-x-28 mt-20'>
+                    <div className='flex grid lg:grid-cols-3 gap-x-28 mt-20'>
                         <div className='w-72 grid gap-y-10'>
                             <img width={500} src={Logo} className='mx-auto' />
                         </div>
-                        <div className='w-72 grid gap-y-3'>
+                        <div className='w-72 grid lg:gap-y-3 gap-y-5 lg:mt-0 mt-10 lg:mx-0 mx-10'>
                             <h1 className='text-2xl font-bold'>PT Kusuma Technology Systema</h1>
-                            <p className='w-max'>The Orchard Residence Block C1,
+                            <p className='lg:w-max'>The Orchard Residence Block C1,
                                 Pamegarsari, Parung, Bogor, West Java <br />
                                 Postal Code 16330</p>
                             <a href='mailto:support@seambiosys.com' className='w-max text-seambiosys-orange hover:text-orange-700'>support@seambiosys.com</a>
