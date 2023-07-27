@@ -29,7 +29,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <nav className="w-screen bg-white sticky top-0 z-10 h-full shadow-md">
                 <div className="m-5 flex items-center justify-between">
                     <div className="flex items-center gap-x-10">
-                        <img src={SeambiosysLogo} width={200} height={200} />
+                        <a href="/">
+                            <img src={SeambiosysLogo} width={200} height={200} className='cursor-pointer' />
+                        </a>
                         <div className={`flex gap-x-10 ${isMobileOrTablet && ('hidden')}`}>
                             <a href="/" className="text-seambiosys-blue hover:text-seambiosys-orange">
                                 Home
