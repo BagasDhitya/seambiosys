@@ -13,7 +13,7 @@ import CertifiedSoftware from "../../assets/certified_software.png"
 const Hubspot = () => {
     return (
         <Layout>
-            <section className='flex flex-wrap justify-center items-center my-16 grid mx-auto w-screen'>
+            <section className='flex flex-wrap justify-center items-center my-16 grid mx-auto w-screen text-black'>
                 <div className='grid grid-cols-1 text-center'>
                     <h1 className="text-4xl font-bold">Hubspot Implementation</h1>
                     <img src={Logo} alt="Logo" width={500} height={500} className='mx-auto my-6' />
@@ -28,7 +28,7 @@ const Hubspot = () => {
                     <a href="#" className='p-3 bg-seambiosys-orange rounded-md text-gray-100 hover:text-white'>Contact Sales</a>
                 </div>
             </section>
-            <section className='flex flex-wrap justify-center items-center my-20 grid mx-auto w-screen'>
+            <section className='flex flex-wrap justify-center items-center my-20 grid mx-auto w-screen text-black'>
                 <div className='grid grid-cols-1 gap-y-5 text-center'>
                     <h1 className="text-4xl font-bold">Why Hubspot?</h1>
                     <div className='my-20 mx-60 flex'>
@@ -63,7 +63,7 @@ const Hubspot = () => {
                     </div>
                 </div>
             </section>
-            <section className='flex flex-wrap lg:w-screen items-center my-20'>
+            <section className='flex flex-wrap lg:w-screen items-center my-20 text-black'>
                 <div className='w-full md:w-1/2 text-center'>
                     <img
                         src={'https://storage.googleapis.com/imagelibrarystorage.pluginops.com/images/uploads/2020/04/Earning-Trust-Since-2010.png'}
@@ -81,7 +81,7 @@ const Hubspot = () => {
                     </a>
                 </div>
             </section>
-            <section className='flex flex-wrap justify-center items-center my-40 grid mx-auto w-screen'>
+            <section className='flex flex-wrap justify-center items-center my-40 grid mx-auto w-screen text-black'>
                 <div className='grid grid-cols-4 gap-y-10 text-center mt-10'>
                     <div className='grid gap-y-3 mx-20'>
                         <img src={CertifiedRevenue} width={70} height={70} className='mx-auto' />
@@ -101,7 +101,7 @@ const Hubspot = () => {
                     </div>
                 </div>
             </section>
-            <section className='flex flex-wrap lg:mx-40 lg:w-max items-start mt-60'>
+            <section className='flex flex-wrap lg:mx-40 lg:w-max items-start mt-60 text-black'>
                 <div className='flex-1 grid gap-y-5 mx-auto'>
                     <h1 className='text-3xl text-center font-semibold'>Need anything to discuss about Hubspot <br /> with best tailor-made solution from Seambiosys?</h1>
                     <a href="/home/contact_sales" className="bg-seambiosys-orange w-60 p-3 rounded-md mx-auto text-white text-center hover:text-white">

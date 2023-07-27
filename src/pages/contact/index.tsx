@@ -11,7 +11,7 @@ const Contact = () => {
                 title="HubSpot Form"
                 className="w-screen h-screen"
             ></iframe>
-            <section className='flex flex-wrap lg:mx-40 lg:w-max items-start'>
+            <section className='flex flex-wrap lg:mx-40 lg:w-max items-start text-black'>
                 <div className='flex-1 grid gap-y-5 mx-auto'>
                     <div className='flex grid grid-cols-3 gap-x-28 mt-20'>
                         <div className='w-72 grid gap-y-10'>

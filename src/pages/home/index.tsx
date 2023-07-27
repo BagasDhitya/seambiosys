@@ -14,7 +14,7 @@ import ComingSoon from "../../assets/seambiosys_coming_soon.png"
 const Home = () => {
     return (
         <Layout>
-            <section className='flex flex-wrap lg:mx-40 lg:w-max items-center my-20'>
+            <section className='flex flex-wrap lg:mx-40 lg:w-max items-center my-20 text-black'>
                 <div className='flex-1 grid gap-y-5 mx-auto'>
                     <h1 className='text-4xl font-bold'>Trusted partner for seamless business operation solution</h1>
                     <p className='text-lg'>Seambiosys ~ Seamless Business Operation Integrated System</p>
@@ -31,7 +31,7 @@ const Home = () => {
                     />
                 </div>
             </section>
-            <section className='flex flex-wrap lg:mx-40 lg:w-max items-start my-40'>
+            <section className='flex flex-wrap lg:mx-40 lg:w-max items-start my-40 text-black'>
                 <div className='flex-1 grid gap-y-5 mx-auto'>
                     <h1 className='text-4xl text-center font-bold'>Seambiosys 3 fundamentals commitment</h1>
                     <div className='flex grid grid-cols-3 gap-x-28 mt-20'>
@@ -53,7 +53,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className='flex flex-wrap lg:w-screen items-center my-20'>
+            <section className='flex flex-wrap lg:w-screen items-center my-20 text-black'>
                 <div className='w-full md:w-1/2 text-center'>
                     <img
                         src={Meeting}
@@ -71,7 +71,7 @@ const Home = () => {
                     </a>
                 </div>
             </section>
-            <section className='flex flex-wrap lg:mx-40 lg:w-max items-start my-40'>
+            <section className='flex flex-wrap lg:mx-40 lg:w-max items-start my-40 text-black'>
                 <div className='flex-1 grid gap-y-5 mx-auto'>
                     <h1 className='text-4xl text-center font-bold'>Our Services</h1>
                     <p className='text-2xl text-center'>Deep dive with our provided service here</p>
@@ -105,7 +105,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className='flex flex-wrap lg:mx-40 lg:w-max items-start'>
+            <section className='flex flex-wrap lg:mx-40 lg:w-max items-start text-black'>
                 <div className='flex-1 grid gap-y-5 mx-auto'>
                     <h1 className='text-4xl text-center font-bold'>Have a Project to Discuss?</h1>
                     <p className='text-2xl text-center'>Join Here!</p>
