@@ -13,7 +13,7 @@ import CertifiedSoftware from "../../assets/certified_software.png"
 const Hubspot = () => {
     return (
         <Layout>
-            <section className='flex flex-wrap justify-center items-center my-16 grid mx-auto w-screen text-black'>
+            <section className='flex flex-wrap justify-center items-center my-16 grid lg:mx-auto w-screen text-black'>
                 <div className='grid grid-cols-1 text-center'>
                     <h1 className="text-4xl font-bold">Hubspot Implementation</h1>
                     <img src={Logo} alt="Logo" width={500} height={500} className='mx-auto my-6' />
@@ -24,22 +24,22 @@ const Hubspot = () => {
 
                 </div>
                 <div className='grid grid-cols-2 gap-x-5 text-center mt-10'>
-                    <a href="#" className='p-3 bg-seambiosys-blue rounded-md text-gray-100 hover:text-white'>Visit Hubspot</a>
-                    <a href="#" className='p-3 bg-seambiosys-orange rounded-md text-gray-100 hover:text-white'>Contact Sales</a>
+                    <a href="#" className='p-3 lg:ml-0 ml-10 bg-seambiosys-blue rounded-md text-gray-100 hover:text-white'>Visit Hubspot</a>
+                    <a href="#" className='p-3 lg:mr-0 mr-10 bg-seambiosys-orange rounded-md text-gray-100 hover:text-white'>Contact Sales</a>
                 </div>
             </section>
             <section className='flex flex-wrap justify-center items-center my-20 grid mx-auto w-screen text-black'>
                 <div className='grid grid-cols-1 gap-y-5 text-center'>
-                    <h1 className="text-4xl font-bold">Why Hubspot?</h1>
+                    <h1 className="text-4xl font-bold lg:mr-0 mr-5">Why Hubspot?</h1>
                     <div className='my-20 lg:mx-60 mx-auto flex'>
                         <iframe
-                            className='w-screen h-96 rounded-lg shadow-md '
+                            className='lg:w-screen lg:mr-0 mr-5 w-80 h-96 rounded-lg shadow-md '
                             src='https://www.youtube.com/embed/1_Oblfg_zq8?autoplay=0&rel=0&showinfo=1&controls=1'
                             title='hubspot'
                         />
                     </div>
                 </div>
-                <div className='grid lg:grid-cols-3 gap-y-20 text-center mt-10'>
+                <div className='grid lg:grid-cols-3 lg:mr-0 mr-5 gap-y-20 text-center mt-10'>
                     <div className='grid gap-y-10 mx-20'>
                         <img src={Ete} width={100} height={100} className='mx-auto' />
                         <h1 className='text-3xl font-bold'>End to end Solution</h1>
@@ -64,7 +64,7 @@ const Hubspot = () => {
                 </div>
             </section>
             <section className='flex flex-wrap lg:w-screen items-center my-20 text-black'>
-                <div className='w-full md:w-1/2 text-center'>
+                <div className='w-full md:w-1/2 lg:mr-0 mr-8 text-center'>
                     <img
                         src={'https://storage.googleapis.com/imagelibrarystorage.pluginops.com/images/uploads/2020/04/Earning-Trust-Since-2010.png'}
                         width={400}
@@ -81,7 +81,7 @@ const Hubspot = () => {
                     </a>
                 </div>
             </section>
-            <section className='flex flex-wrap justify-center items-center my-40 grid mx-auto w-screen text-black'>
+            <section className='flex flex-wrap justify-center items-center my-40 grid lg:mr-0 mr-10 mx-auto w-screen text-black'>
                 <div className='grid lg:grid-cols-4 gap-y-10 text-center mt-10'>
                     <div className='grid gap-y-3 mx-20'>
                         <img src={CertifiedRevenue} width={70} height={70} className='mx-auto' />
@@ -102,8 +102,8 @@ const Hubspot = () => {
                 </div>
             </section>
             <section className='flex flex-wrap lg:mx-40 lg:w-max items-start mt-60 text-black'>
-                <div className='flex-1 grid gap-y-5 mx-auto'>
-                    <h1 className='text-3xl text-center font-semibold'>Need anything to discuss about Hubspot <br /> with best tailor-made solution from Seambiosys?</h1>
+                <div className='flex-1 grid gap-y-5 lg:mx-auto'>
+                    <h1 className='lg:text-3xl text-2xl text-center lg:mx-0 mx-5 lg:mr-0 mr-10 font-semibold'>Need anything to discuss about Hubspot with best tailor-made solution from Seambiosys?</h1>
                     <a href="/home/contact_sales" className="bg-seambiosys-orange w-60 p-3 rounded-md mx-auto text-white text-center hover:text-white">
                         Contact Us
                     </a>

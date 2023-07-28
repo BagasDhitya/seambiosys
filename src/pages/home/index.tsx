@@ -34,7 +34,7 @@ const Home = () => {
             <section className='flex flex-wrap lg:mx-40 lg:w-max items-start my-40 text-black'>
                 <div className='flex-1 grid gap-y-5 mx-auto'>
                     <h1 className='text-4xl text-center font-bold'>Seambiosys 3 fundamentals commitment</h1>
-                    <div className='flex grid lg:grid-cols-3 lg:gap-y-0 lg:mx-0 mx-10 gap-y-14 gap-x-28 mt-20'>
+                    <div className='flex grid lg:grid-cols-3 lg:gap-y-0 lg:mx-0 mx-16 gap-y-14 gap-x-28 mt-20'>
                         <div className='w-72 grid'>
                             <img width={70} src={Time} className='mx-auto' />
                             <h1 className='text-2xl text-center text-seambiosys-orange'>Reduce contraint of time</h1>
@@ -71,7 +71,7 @@ const Home = () => {
                     </a>
                 </div>
             </section>
-            <section className='flex flex-wrap lg:mx-40 lg:w-max items-start lg:my-40 my-0 text-black'>
+            <section className='flex flex-wrap lg:mx-40 mx-5 lg:w-max items-start lg:my-40 my-0 text-black'>
                 <div className='flex-1 grid gap-y-5 mx-auto'>
                     <h1 className='text-4xl text-center font-bold'>Our Services</h1>
                     <p className='text-2xl text-center'>Deep dive with our provided service here</p>
@@ -92,7 +92,7 @@ const Home = () => {
                         </div>
                         <div className='w-72 border rounded-md shadow-md p-10 grid gap-y-10'>
                             <img width={200} src={Etl} className='mx-auto' />
-                            <img width={100} src={ComingSoon} className='lg:my-96 my-8 absolute' />
+                            <img width={100} src={ComingSoon} className='lg:my-96 my-80 absolute' />
                             <h1 className='text-2xl text-center text-seambiosys-orange'>ETL Process Consulting</h1>
                             <p className='text-center'>Have a constraint on data extraction, transform and loading? Our ETL Engine ready to help you.</p>
                         </div>

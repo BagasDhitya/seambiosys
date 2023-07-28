@@ -27,7 +27,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
     return (
         <div className="min-h-screen lg:w-screen bg-white flex flex-col">
-            <nav className="w-screen bg-white sticky top-0 z-10 h-full shadow-md">
+            <nav className="w-full bg-white sticky top-0 z-10 h-full shadow-md">
                 <div className="m-5 flex items-center justify-between">
                     <div className="flex items-center gap-x-10">
                         <a href="/">
