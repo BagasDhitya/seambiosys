@@ -13,7 +13,7 @@ import CertifiedSoftware from "../../assets/certified_software.png"
 const Hubspot = () => {
     return (
         <Layout>
-            <section className='flex flex-wrap justify-center items-center my-16 grid lg:mx-auto w-screen text-black'>
+            <section className='flex flex-wrap justify-center items-center my-16 grid lg:mx-auto mx-10 w-screen text-black'>
                 <div className='grid grid-cols-1 text-center'>
                     <h1 className="text-4xl font-bold">Hubspot Implementation</h1>
                     <img src={Logo} alt="Logo" width={500} height={500} className='mx-auto my-6' />
