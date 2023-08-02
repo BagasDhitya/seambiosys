@@ -64,7 +64,7 @@ const Hubspot = () => {
                 </div>
             </section>
             <section className='flex flex-wrap lg:w-screen items-center my-20 text-black'>
-                <div className='w-full md:w-1/2 lg:mr-0 mr-8 text-center'>
+                <div className='w-full md:w-1/2 text-center'>
                     <img
                         src={'https://storage.googleapis.com/imagelibrarystorage.pluginops.com/images/uploads/2020/04/Earning-Trust-Since-2010.png'}
                         width={400}

@@ -11,14 +11,16 @@ import Effective from "../../assets/seambiosys_leverage.png"
 import Time from "../../assets/seambiosys_reduce_time.png"
 import ComingSoon from "../../assets/seambiosys_coming_soon.png"
 
+import data from "../../datas/home.json"
+
 const Home = () => {
     return (
         <Layout>
             <section className='flex flex-wrap lg:mx-40 mx-10 lg:w-max items-center my-5 lg:my-20 text-black'>
                 <div className='flex-1 grid gap-y-5 mx-auto'>
-                    <h1 className='text-4xl font-bold'>Trusted partner for seamless business operation solution</h1>
-                    <p className='text-lg'>Seambiosys ~ Seamless Business Operation Integrated System</p>
-                    <p>We provide trusted solutions for various enterprise business operation scenarios as a one-stop service</p>
+                    <h1 className='text-4xl font-bold'>{data?.section_1?.title}</h1>
+                    <p className='text-lg'>{data?.section_1.subtitle}</p>
+                    <p>{data?.section_1.description}</p>
                     <a href="/home/contact_sales" className="bg-seambiosys-orange w-40 p-3 rounded-md text-white text-center hover:text-white">
                         Contact Us
                     </a>
